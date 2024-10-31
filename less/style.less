@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+@white:             #fff;
+@background-color: darken(@white, 10%);
+@radius: 5px;
+
+
+.boxShadow(@rule1, @rule2){
+  -webkit-box-shadow: @rule1, @rule2;
+  -moz-box-shadow: @rule1, @rule2;
+  box-shadow: @rule1, @rule2; 
+}
+
+.boxShadow(@rule){
+	-webkit-box-shadow: @rule;
+	-moz-box-shadow: @rule;
+	box-shadow: @rule; 
+}
+
+.border-radius(@radius: 4px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
+
+
+.rect(){
+	border: 1px solid darken(@background-color, 25%);
+	//background-color: darken(@background-color, 10%);
+	.boxShadow(inset 0px 2px 2px darken(@background-color, 5%), 0px 1px 1px @white);
+}
+.frame(){
+	.border-radius(@radius);
+	.rect(); 
+}
+
+#calculator-tipografic
+{ 
+	width: auto;
+	padding : 1em;
+	.frame();
+
+  input, label
+  {
+    display: block; float: : left;
+  }
+
+  legend
+  {
+  	margin-bottom: 1em;
+  	font-weight: bold;
+  	font-size: 1.3em;
+  }
+
+  input, select, button 
+  {
+	  .rect(); 
+	  padding: 0.5em;
+
+	  &.error {color: red; border-color: red;}
+  }
+
+  button 
+  {
+    margin-top: 1em; font-weight: bold;
+    &:hover {background-color: @white;}
+  }
+
+  p
+  {
+  	margin: 0;
+
+  	&.info {color: blue;}
+  	&.error {color: red;}
+  }
+
+  label {font-weight: bold;}
+
+  table 
+  {
+    width: 100%;
+    font-size: 1.2em; clear: both; margin: 1em 0em;
+    .boxShadow(2px 2px 10px 0px rgba(0,0,0,0.2));
+    background-color: lighten(@background-color, 5%);
+    .border-radius(@radius);
+
+    tr {cursor: pointer; &:hover {background-color: @background-color}}
+    td {padding: 0.5em;}
+  }
+
+
+  #pret {font-weight: bold; margin: 0.5em; clear: both;}
+
+  div.friendly-link {margin-top: 1.5em; font-size: 0.7em;}
+}

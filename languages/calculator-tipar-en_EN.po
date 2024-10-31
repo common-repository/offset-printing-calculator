@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-10-23 00:18+0200\n"
+"PO-Revision-Date: 2014-08-07 19:28+0200\n"
+"Last-Translator: Gabriel Braila <innermond@yahoo.com>\n"
+"Language-Team: \n"
+"Language: ro-RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _e;__;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\wamp\\www\\local.wordpress.ro\\wp-content\\plugins\\php-printing-house-pricer\n"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:82
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:83
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:86
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:95
+msgid "\":val\" incorect"
+msgstr "\":val\" invalid"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:84
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:88
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:94
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:96
+msgid "\":val\" intre $0 si $1 ?"
+msgstr "\":val\" between $0 andi $1 ?"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:85
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:87
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:89
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:90
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:91
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:92
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:97
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:98
+msgid "\":val\" este $0 sau mai mare ?"
+msgstr "\":val\" is  $0 or greater $1 ?"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/calculator-tipar.php:93
+msgid "\":val\" doar litere ?"
+msgstr "\":val\" only letters ?"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:3
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:109
+msgid "Introdu titlul"
+msgstr "Enter title"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:6
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:114
+msgid "Moneda"
+msgstr "Currency"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:9
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:119
+msgid "Coala offset de la producator (in mp)"
+msgstr "Sheet paper from vendor (sq)"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:12
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:124
+msgid "Divizor coala offset in coli de tiparit"
+msgstr "Vendor sheet divided in offset sheets"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:15
+msgid "Dimensiuni maxime pe care se poate tipari"
+msgstr "Maximum dimensions available for effective printing"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:18
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:139
+msgid "Prisoase coli de tiparit"
+msgstr "Extra offset sheets"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:21
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:144
+msgid "Factor granular"
+msgstr "Cutting factor"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:24
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:149
+msgid "Viteza tiparit coli / ora"
+msgstr "Printing speed sheets / hour"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:27
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:154
+msgid "Cost ora de tiparire"
+msgstr "Printing hour price"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:30
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:159
+msgid "Cost placa tipar"
+msgstr "Offset plate price"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:33
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:164
+msgid "TVA %"
+msgstr "VAT %"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control.php:36
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:169
+msgid "Acronim TVA"
+msgstr "Acronym VAT"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control_extended.php:3
+msgid "panel control"
+msgstr "panou control"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control_extended.php:3
+msgid "Salveaza"
+msgstr "Save"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control_extended.php:11
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:174
+msgid "Formate prestabilite"
+msgstr "Default formats "
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control_extended.php:14
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:179
+msgid "Gramaje hartie de tiparit"
+msgstr "Papersheet weights"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/control_extended.php:17
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:184
+msgid "Cost pliere"
+msgstr "Folding price"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:107
+msgid "Ajutor"
+msgstr "Help"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:129
+msgid "Zona maxima de printare"
+msgstr "Maximum print area"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/help.php:134
+msgid "Coala de tiparit"
+msgstr "Printing sheet"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:5
+msgid "Alege formatul"
+msgstr "Choose format"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:10
+msgid "Format deschis"
+msgstr "Open format"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:11
+msgid "Cate formate deschise incap pe :print_area ?"
+msgstr "How many open formats fits on :print_area ?"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:14
+msgid "Tipar fata"
+msgstr "Front print"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:16
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:22
+msgid "policromie"
+msgstr "polychromy"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:19
+msgid "Tipar verso"
+msgstr "Side print"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:21
+msgid "fara"
+msgstr "no"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:25
+msgid "Numar indoituri"
+msgstr "Folds"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:30
+msgid "Greutate hartie"
+msgstr "Weight paper"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:35
+msgid "Tiraj"
+msgstr "Copies"
+
+#: D:\wamp\www\local.wordpress.ro\wp-content\plugins\php-printing-house-pricer/include/views/widget.php:38
+msgid "Calculeaza"
+msgstr "Calculate"
+
+msgid "tva"
+msgstr "vat"
+
+msgid "pret"
+msgstr "price"
+
+#~ msgid "Help"
+#~ msgstr "Ajutor"
+
+#~ msgid "Choose format"
+#~ msgstr "Alege formatul"
+
+#~ msgid "How many open formats fit on A3 sheet"
+#~ msgstr "Cate formate deschise incap pe coala A3"
+
+#~ msgid "Front printing"
+#~ msgstr "Tipar fata"
+
+#~ msgid "polychromy"
+#~ msgstr "policromie"
+
+#~ msgid "Side printing"
+#~ msgstr "Tipar verso"
+
+#~ msgid "no"
+#~ msgstr "fara"
+
+#~ msgid "Folds number"
+#~ msgstr "Numar indoituri"
+
+#~ msgid "Paper weight"
+#~ msgstr "Gramaj hartie"
+
+#~ msgid "Copies"
+#~ msgstr "Tiraj"
+
+#~ msgid "\":val\" is $0 or greater ?"
+#~ msgstr "\":val\"este $0 sau mai mare ?"

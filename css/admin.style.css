@@ -1,0 +1,153 @@
+@charset "utf-8";
+.calculator-tipar-offset {
+  padding: 0;
+  margin: 0;
+}
+.calculator-tipar-offset input,
+.calculator-tipar-offset label {
+  display: block;
+  float: : left;
+  margin: 0em;
+}
+.calculator-tipar-offset label {
+  margin: 1em 0em 0em 0em;
+  clear: both;
+}
+.calculator-tipar-offset legend {
+  margin: 1em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.calculator-tipar-offset input,
+.calculator-tipar-offset select,
+.calculator-tipar-offset button {
+  border: 1px solid #a6a6a6;
+  -webkit-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  -moz-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  padding: 0.5em;
+}
+.calculator-tipar-offset input.error,
+.calculator-tipar-offset select.error,
+.calculator-tipar-offset button.error {
+  color: red;
+  border-color: red;
+}
+.calculator-tipar-offset select {
+  width: 100%;
+}
+.calculator-tipar-offset button {
+  margin-top: 1em;
+  font-weight: bold;
+}
+.calculator-tipar-offset button:hover {
+  background-color: #ffffff;
+}
+.calculator-tipar-offset p,
+.calculator-tipar-offset ul {
+  margin: 0;
+}
+.calculator-tipar-offset p.info,
+.calculator-tipar-offset ul.info {
+  color: blue;
+}
+.calculator-tipar-offset p.error,
+.calculator-tipar-offset ul.error {
+  color: red;
+}
+.calculator-tipar-offset label {
+  font-weight: bold;
+}
+.calculator-tipar-offset table {
+  width: 100%;
+  font-size: 1.2em;
+  clear: both;
+  margin: 1em 0em;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.calculator-tipar-offset table tr {
+  cursor: pointer;
+}
+.calculator-tipar-offset table tr:hover {
+  background-color: #e6e6e6;
+}
+.calculator-tipar-offset table td {
+  padding: 0.5em;
+}
+.calculator-tipar-offset-col1,
+.calculator-tipar-offset-col2,
+.calculator-tipar-offset-col3 {
+  float: left;
+  margin-top: 5em;
+}
+.calculator-tipar-offset-col1,
+.calculator-tipar-offset-col2,
+.calculator-tipar-offset-col3 {
+  width: 33%;
+}
+.calculator-tipar-offset a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.calculator-tipar-offset ul.convert-row li.unit {
+  float: left;
+  margin-bottom: 0.5em;
+}
+.calculator-tipar-offset ul.convert-row li.unit input,
+.calculator-tipar-offset ul.convert-row li.unit a {
+  margin: 0em 0.15em;
+}
+.calculator-tipar-offset ul.convert-row li.unit input,
+.calculator-tipar-offset ul.convert-row li.unit div.actions {
+  float: left;
+}
+.calculator-tipar-offset ul.convert-row li.unit.error {
+  color: red;
+  border-color: red;
+}
+.fixed {
+  position: fixed;
+}
+.col-all {
+  width: 99%;
+}
+.fixed.col-all {
+  background-color: #f7f7f7;
+  padding: 0em;
+  margin: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #a6a6a6;
+  -webkit-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  -moz-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+}
+.fixed.col-all h3 {
+  float: left;
+}
+#save-configuration {
+  cursor: pointer;
+  background-color: #e6e6e6;
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  float: left;
+  display: block;
+  margin-left: 33%;
+}
+#save-configuration:hover {
+  background-color: #ffffff;
+}
+#save-configuration.loading {
+  background: transparent left center no-repeat url(/wp-content/plugins/calculator-tipar/less/../img/ajax-loader.gif);
+}
+#save-configuration.error {
+  color: red;
+  border-color: red;
+}

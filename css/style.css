@@ -1,0 +1,87 @@
+@charset "utf-8";
+#calculator-tipografic {
+  width: auto;
+  padding: 1em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #a6a6a6;
+  -webkit-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  -moz-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+}
+#calculator-tipografic input,
+#calculator-tipografic label {
+  display: block;
+  float: : left;
+}
+#calculator-tipografic legend {
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#calculator-tipografic input,
+#calculator-tipografic select,
+#calculator-tipografic button {
+  border: 1px solid #a6a6a6;
+  -webkit-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  -moz-box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  box-shadow: inset 0px 2px 2px #d9d9d9, 0px 1px 1px #ffffff;
+  padding: 0.5em;
+}
+#calculator-tipografic input.error,
+#calculator-tipografic select.error,
+#calculator-tipografic button.error {
+  color: red;
+  border-color: red;
+}
+#calculator-tipografic button {
+  margin-top: 1em;
+  font-weight: bold;
+}
+#calculator-tipografic button:hover {
+  background-color: #ffffff;
+}
+#calculator-tipografic p {
+  margin: 0;
+}
+#calculator-tipografic p.info {
+  color: blue;
+}
+#calculator-tipografic p.error {
+  color: red;
+}
+#calculator-tipografic label {
+  font-weight: bold;
+}
+#calculator-tipografic table {
+  width: 100%;
+  font-size: 1.2em;
+  clear: both;
+  margin: 1em 0em;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#calculator-tipografic table tr {
+  cursor: pointer;
+}
+#calculator-tipografic table tr:hover {
+  background-color: #e6e6e6;
+}
+#calculator-tipografic table td {
+  padding: 0.5em;
+}
+#calculator-tipografic #pret {
+  font-weight: bold;
+  margin: 0.5em;
+  clear: both;
+}
+#calculator-tipografic div.friendly-link {
+  font-size: 0.7em; margin-top: 1.5em;
+}
+
